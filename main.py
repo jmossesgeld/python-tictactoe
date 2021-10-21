@@ -57,15 +57,15 @@ def init_console():
         if is_X_winning:
             change_colors_of_winning_combinations(x_combination)
             display_board()
-            print("Player X wins!")
+            input("Player X wins!")
             break
         elif is_O_winning:
             change_colors_of_winning_combinations(o_combination)
             display_board()
-            print("Player O wins!")
+            input("Player O wins!")
             break
         elif turn == 8:
-            print("It is a draw!")
+            input("It is a draw!")
 
 
 init_console()
